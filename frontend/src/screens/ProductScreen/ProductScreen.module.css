@@ -1,0 +1,83 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.ProductScreen {
+ color: rgb(66, 65, 65);
+ margin: 4vh 7vw;
+ width: 80%;
+ min-height: 70vh ;
+}
+
+.ProductContent {
+ margin: 4vh 0;
+ display: grid;
+ grid-template-columns: 3fr 2fr 2fr;
+ grid-gap: 4vw;
+}
+
+.ProductContent img {
+ max-width: 100%;
+ height: auto;
+}
+
+.ProductDesc {
+ display: grid;
+ grid-template-rows: 3fr 1fr 1fr 3fr;
+}
+
+.ProductDesc span {
+ padding: 0.3rem 0 ;
+}
+
+.ProductStatus{
+ max-width: 12rem ;
+ font-weight: 600;
+}
+
+.ProductStatus > div {
+ border: 1px solid rgb(187, 184, 184);
+ display: grid;
+ grid-template-rows: 2fr 2fr 3fr 3fr;
+}
+
+.ProductStatus span {
+ border-bottom: 1px solid rgb(187, 184, 184);
+ display: flex;
+ flex-flow: row;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 10px;
+}
+
+.ProductStatus select{
+  font-weight: 600;
+  border: 1px solid rgb(187, 184, 184);
+  height: 2rem;
+  width: 3.2rem;
+  background-color: rgb(245, 244, 244);
+  color: black;
+ }
+
+.cartButton {
+ padding: 10px;
+}
+
+.cartButton button {
+ border: none;
+ width: 100%;
+ height: 100%;
+ background: black;
+ color: white;
+ padding: 12px 10px;
+ cursor: pointer;
+}
+
+.cartButton button:disabled{
+ background: rgb(240, 235, 235);
+ color: rgb(99, 95, 95);
+ cursor:not-allowed;
+}
+

@@ -1,0 +1,33 @@
+.Product {
+ font-family: 'Montserrat', sans-serif;
+  border: 1px solid rgb(211, 209, 209);
+ width: 100%;
+}
+
+.Product img{
+ max-width: 100%;
+ height: auto;
+}
+
+.Card {
+ width: 100%;
+ padding: auto;
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ text-align: center;
+}
+
+.Card h3{
+ padding: 0;
+ margin: 5px 0;
+ font-weight: 600;
+ } 
+ 
+ .Card h4 {
+  padding: 0;
+  margin: 9px 0 7px 0;
+  font-weight: 400;
+  font: inherit;
+  font-size: small;
+}

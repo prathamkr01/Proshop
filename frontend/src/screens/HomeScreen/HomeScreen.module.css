@@ -1,0 +1,19 @@
+.HomeScreen{
+  font-family: 'Montserrat', sans-serif;
+ width: 70%;
+ min-height: 80vh;
+ display: flex;
+ flex-flow: column;
+ margin: 0 0 0 10vw;
+}
+.HomeScreen h2 {
+ margin: 2vh 0;
+ padding: 0;
+}
+
+.HomeScreen .HSproducts {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 10px;
+}
+

@@ -1,0 +1,36 @@
+.Navbar {
+ font-family: 'Montserrat', sans-serif;
+ margin: 0;
+ padding: 0;
+ height: 15vh;
+ width: 100vw;
+ background-color: rgb(48, 50, 58);
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+}
+
+.Navbar h3{
+ margin: 0;
+ padding: 0;
+}
+
+.Navbar .NavRight{
+  display: flex;
+}
+
+.username{
+  display: flex;  
+}
+
+.logout{
+  margin: 0 30px 0 0;
+  color: rgb(177, 174, 174);
+  cursor: pointer;
+}
+.logout:hover{
+  text-decoration: underline;
+}
+
+

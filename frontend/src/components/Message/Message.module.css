@@ -1,0 +1,7 @@
+.Message{
+  margin: 5px 0;
+  padding: 10px;
+  align-items: center;
+  color: #F32013;
+  background-color:rgba(255, 61, 113, 0.08);
+}
